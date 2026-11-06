@@ -1,0 +1,26 @@
+# Environments & Virtual Envs
+venv/
+.venv/
+env/
+.env
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js & Vite build artifacts
+node_modules/
+frontend-app/node_modules/
+frontend-app/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
