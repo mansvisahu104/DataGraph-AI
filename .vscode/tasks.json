@@ -4,10 +4,7 @@
     {
       "label": "1. Start Backend (FastAPI)",
       "type": "shell",
-      "command": ".\\venv\\Scripts\\python.exe -m uvicorn main:app --reload --host 127.0.0.1 --port 8000",
-      "options": {
-        "cwd": "${workspaceFolder}/backend"
-      },
+      "command": ".\\backend\\venv\\Scripts\\python.exe -m uvicorn main:app --app-dir .\\backend --reload --host 127.0.0.1 --port 8000",
       "isBackground": true,
       "problemMatcher": []
     },
